@@ -1,0 +1,19 @@
+#ifndef XWATCHDOG_H
+#define XWATCHDOG_H
+
+#include "defines.h"
+
+enum AppWatchdog { APP_WTD_ADC, APP_WTD_FRESH, APP_WTD_DISPLAY, APP_WTD_SWITCH, APP_WTD_ERROR, APP_WTD_ERROR_ONE_SEC, APP_WTD_FLASH };
+
+#define SERVICE_ADC_RUN_TIME_MILLI				25
+#define SERVICE_FRESH_RUN_TIME_MILLI			50
+#define SERVICE_DISPLAY_RUN_TIME_MILLI			2
+#define SERVICE_SWITCH_RUN_TIME_MILLI			5
+#define SERVICE_ERROR_RUN_TIME_MILLI			250
+#define SERVICE_ERROR_ONE_SEC_TIME_MILLI		1000
+#define SERVICE_FLASH_RUN_TIME_MILLI			500
+
+void xWatchdogUpdate(enum AppWatchdog appWatchdog);
+void xWatchdogRefresh();
+
+#endif // XWATCHDOG_H
