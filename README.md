@@ -1,6 +1,6 @@
 # Proje2
 ## Bu GitHub'daki ikinci projem.
-# ElectricWHC Software
+#  Software
  Yazılım, cihazın çeşitli işlevlerini kontrol etmek için kullanılan mikrodenetleyici tabanlı bir sistemde çalışır. Sistemdeki ana bileşenler arasında sıcaklık sensörü, butonlar, ekran, buzzer ve zamanlayıcılar yer alır. Bu yazılım, cihazın verimli ve güvenli bir şekilde çalışmasını sağlamak için gereken algoritmaları içerir.
 
 Proje Özeti
